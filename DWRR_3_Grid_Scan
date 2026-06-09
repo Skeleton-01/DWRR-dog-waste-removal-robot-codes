@@ -9,7 +9,7 @@ targets = [
 ]
 
 for x, y in targets:
-    grid[x][y] = 1
+    grid[x, y] = 1
 
 print(grid)
 
