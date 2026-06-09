@@ -1,0 +1,15 @@
+import numpy as np
+
+grid = np.zeros((5,5))
+
+targets = [
+    (1,2),
+    (4,3),
+    (2,4)
+]
+
+for x, y in targets:
+    grid[x][y] = 1
+
+print(grid)
+
